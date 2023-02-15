@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n '' input.txt | cut -d':' -f1 | awk 'NR%2==1'
+grep -n '' input.txt | cut -d ':' -f1 | awk 'NR%2==1'
